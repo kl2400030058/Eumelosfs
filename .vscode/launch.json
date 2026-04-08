@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FsadProjectApplication<FSAD_project>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "back.FsadProjectApplication",
+            "projectName": "FSAD_project",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
