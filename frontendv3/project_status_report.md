@@ -4,7 +4,7 @@
 
 The project is currently a semi-complete full-stack application consisting of a React frontend and a Spring Boot backend.
 
-- **Frontend (`unisched`)**:
+- **Frontend (`eumelos-ai`)**:
   - **Tech Stack**: React 19, Vite, Lucide Icons.
   - **UI**: High-quality dark-themed UI (Glassmorphism) with rebranding to **Eumelos.AI** visible on the login page.
   - **Features**: Authentication (Student/Admin), Dashboard, Course Management, Schedule Conflict Checking.
@@ -40,7 +40,7 @@ The connection between the frontend and backend is handled through two layers:
 
 ## 4. Cons & Technical Debt
 
-1. **Naming Inconsistencies**: The project root is `frontendv3`, the backend is `FSAD_project`, and the frontend is `unisched`. This can be confusing for deployment and maintenance.
+1. **Naming Inconsistencies**: The project root is `frontendv3`, the backend is `FSAD_project`, and the frontend is `eumelos-ai`. This can be confusing for deployment and maintenance.
 2. **Hardcoded Configurations**: Many settings (like the Google Recaptcha site key in `LoginPage.jsx`) are hardcoded rather than being pulled from environment variables.
 3. **Lack of Unified Build**: There is no top-level script to start both FE and BE simultaneously, requiring manual terminal management.
 4. **Type Safety**: There is no shared type definition or schema (like OpenAPI/Swagger) being enforced on the frontend, which might lead to runtime errors if the backend API changes.
