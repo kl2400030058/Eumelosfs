@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "frontend:install": "cd frontendv3/unisched && npm install",
-    "frontend:dev": "cd frontendv3/unisched && npm run dev",
-    "backend:run": "cd frontendv3/FSAD_project && .\\mvnw.cmd spring-boot:run",
-
-
-    "backend:test": "cd frontendv3/FSAD_project && ./mvnw test",
+    "frontend:install": "cd frontendv3/eumelos-frontend && npm install",
+    "frontend:dev": "cd frontendv3/eumelos-frontend && npm run dev",
+    "backend:run": "cd frontendv3/eumelos-backend && mvnw spring-boot:run",
     "dev": "echo \"Please run 'npm run frontend:dev' and 'npm run backend:run' in separate terminals.\""
   }
 }
